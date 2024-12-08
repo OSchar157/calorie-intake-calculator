@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.calorie-calculator {
+    padding: 10px;
+    /* border: 5px solid rgb(211, 38, 38); */
+    width: 500px;
+    height: 385px;
+    margin: auto;
+}
+
+.input-box {
+    width: 75px;
+    height: 17px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.input-box:focus {
+    outline: none;
+    border-color: #0799f4;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    /* Hide the spinners */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.drop-down {
+    width: 105px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.drop-down:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.drop-down:focus {
+    outline: none;
+    border-color: #0799f4;
+}
+
+input[type="radio"] {
+    margin: 10px;
+}
+
+.buttons {
+    width: 105px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.buttons:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#reset-button {
+    background-color: rgb(215, 75, 75);
+}
+
+#calculate-button {
+    background-color: #0799f4;
+}
+
+#purpose {
+    margin-top: 25px;
+}
+
+#this-many-calories {
+    color: #0799f4;
+}
+
+.hidden {
+    display: none;
+}
